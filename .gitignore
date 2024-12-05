@@ -1,0 +1,38 @@
+# ملفات بنية البناء والنتاجات
+bin/
+obj/
+
+# إعدادات المشروع
+.vscode/
+*.user
+*.csproj.user
+*.suo
+
+# ملفات مؤقتة
+*.log
+*.tmp
+
+# ملفات التكوين الخاصة بـ Visual Studio
+.vs/
+
+# الحزم
+packages/
+*.nupkg
+*.snupkg
+
+# استثناءات إضافية لمشاريع الويب
+wwwroot/
+node_modules/
+
+# ملفات قاعدة البيانات المحلية
+*.mdf
+*.ldf
+*.sqlite
+
+# إعدادات بيئة التطوير الشخصية
+.idea/
+*.sln.ide
+
+# ملفات التكوين الخاصة بـ Windows
+Thumbs.db
+Desktop.ini
