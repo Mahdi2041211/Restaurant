@@ -1,5 +1,5 @@
 ﻿
-namespace مشروع__مطعم
+namespace Resturant
 {
     partial class Casher_form
     {
@@ -389,7 +389,6 @@ namespace مشروع__مطعم
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Goldenrod;
-            this.BackgroundImage = global::مشروع__مطعم.Properties.Resources.download;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.ClientSize = new System.Drawing.Size(658, 687);
             this.Controls.Add(this.guna2Panel2);

@@ -9,7 +9,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace مشروع__مطعم
+namespace Resturant
 {
     public partial class Casher_form : Form
     {
