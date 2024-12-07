@@ -10,11 +10,21 @@ using System.Windows.Forms;
 
 namespace Resturant
 {
-    public partial class login : Form
+    public partial class Form1 : Form
     {
-        public login()
+        public Form1()
         {
             InitializeComponent();
+        }
+
+        private void guna2Button1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2ComboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

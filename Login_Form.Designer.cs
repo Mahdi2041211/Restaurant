@@ -67,6 +67,7 @@ namespace Resturant
             this.LoginToAdminForm.Size = new System.Drawing.Size(180, 45);
             this.LoginToAdminForm.TabIndex = 3;
             this.LoginToAdminForm.Text = "Admin";
+            this.LoginToAdminForm.Click += new System.EventHandler(this.LoginToAdminForm_Click);
             // 
             // guna2CircleButton1
             // 
