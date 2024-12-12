@@ -24,10 +24,6 @@ packages/
 wwwroot/
 node_modules/
 
-# ملفات قاعدة البيانات المحلية
-*.mdf
-*.ldf
-*.sqlite
 
 # إعدادات بيئة التطوير الشخصية
 .idea/
