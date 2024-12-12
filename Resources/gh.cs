@@ -10,19 +10,24 @@ using System.Windows.Forms;
 
 namespace Resturant
 {
-    public partial class Manager : Form
+    public partial class Form1 : Form
     {
-        public Manager()
+        public Form1()
         {
             InitializeComponent();
         }
 
-        private void Manager_Load(object sender, EventArgs e)
+        private void guna2Button1_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void AllBills_Click(object sender, EventArgs e)
+        private void guna2ComboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2Panel1_Paint(object sender, PaintEventArgs e)
         {
 
         }

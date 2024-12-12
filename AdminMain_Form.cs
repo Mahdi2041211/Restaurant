@@ -7,14 +7,21 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Guna.UI2.WinForms;
 
 namespace Resturant
 {
-    public partial class Login_Form : Form
+    public partial class AdminMain_Form : Form
     {
-        public Login_Form()
+       public static string select_btn;
+        public AdminMain_Form()
         {
             InitializeComponent();
+            
+            creat_btn.Tag = "crt";
+            delete_btn.Tag = "del";
+            update_btn.Tag = "up";
+            
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -22,20 +29,20 @@ namespace Resturant
 
         }
 
-        private void guna2Button1_Click(object sender, EventArgs e)
-        {
-            this.Close();
-        }
-
         private void guna2Button2_Click(object sender, EventArgs e)
         {
-            this.WindowState = FormWindowState.Minimized;
+          
         }
 
-        private void guna2Button3_Click(object sender, EventArgs e)
+        private void AdminMain_Form_Click(object sender, EventArgs e)
         {
-            Casher_form form = new Casher_form();
-            form.Show();
+            crud_form frm = new crud_form();
+             Guna2Button btn = sender as Guna2Button;
+            if (btn!=null)
+            {
+                select_btn = btn.Tag.ToString(); 
+            }
+            frm.Show();
             this.Hide();
         }
 
@@ -46,16 +53,16 @@ namespace Resturant
 
         private void guna2CircleButton2_Click(object sender, EventArgs e)
         {
-            this.WindowState = FormWindowState.Minimized;
 
         }
 
-        private void LoginToAdminForm_Click(object sender, EventArgs e)
+        private void guna2Button1_Click(object sender, EventArgs e)
         {
-            this.Hide();
-            AdminMain_Form frm = new AdminMain_Form();
-            frm.Show();
-            
+
+        }
+
+        private void read_btn_Click(object sender, EventArgs e)
+        {
 
         }
     }

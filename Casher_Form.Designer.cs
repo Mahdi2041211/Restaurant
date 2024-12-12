@@ -1,6 +1,6 @@
 ﻿
 namespace Resturant
-{
+{ 
     partial class Casher_form
     {
         /// <summary>

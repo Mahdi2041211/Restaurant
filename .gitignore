@@ -15,11 +15,6 @@ obj/
 # ملفات التكوين الخاصة بـ Visual Studio
 .vs/
 
-# الحزم
-packages/
-*.nupkg
-*.snupkg
-
 # استثناءات إضافية لمشاريع الويب
 wwwroot/
 node_modules/

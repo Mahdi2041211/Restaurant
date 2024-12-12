@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace Resturant
 {
-    public partial class Casher : Form
+    public partial class Meals_Form : Form
     {
-        public Casher()
+        public Meals_Form()
         {
             InitializeComponent();
+        }
+
+        private void guna2HtmlLabel1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
