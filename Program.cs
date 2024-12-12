@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.Data.SqlClient;
 using System.Windows.Forms;
 
 namespace Resturant
@@ -16,7 +17,7 @@ namespace Resturant
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Login_Form());
+            Application.Run(new AdminMain_Form());
         }
     }
 }
